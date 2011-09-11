@@ -1,0 +1,45 @@
+max definecommand n patcher insertobj newobj;
+max definecommand m patcher insertobj message;
+max definecommand p patcher insertobjectpalette;
+max definecommand b patcher insertobj button;
+max definecommand x patcher insertobj toggle;
+max definecommand N patcher insertobj number;
+max definecommand F patcher insertobj flonum;
+max definecommand c patcher insertobj comment;
+max definecommand j patcher inserttextobj jit.; 
+max definecommand P patcher inserttextobj "newobj @presentation 1 @text ";
+max definecommand M patcher insertobj matrixctrl;
+max definecommand O patcher insertobj outlet;
+max definecommand I patcher insertobj inlet;
+
+max definecommand t patcher inserttextobj t;
+max definecommand o patcher inserttextobj route;
+max definecommand e patcher inserttextobj sel;
+
+max definecommand r patcher inserttextobj r;
+max definecommand s patcher inserttextobj s;
+max definecommand S patcher inserttextobj send~;
+max definecommand R patcher inserttextobj receive~;
+
+
+max definecommand g patcher inserttextobj gate;
+max definecommand i patcher inserttextobj i;
+max definecommand f patcher inserttextobj f;
+max definecommand u patcher inserttextobj uzi;
+max definecommand 1 patcher inserttextobj counter;
+
+max definecommand + patcher inserttextobj +;
+max definecommand - patcher inserttextobj -;
+max definecommand / patcher inserttextobj /;
+max definecommand * patcher inserttextobj *;
+max definecommand % patcher inserttextobj %;
+max definecommand = patcher inserttextobj ==;
+
+max definecommand B patcher inserttextobj buffer~;
+max definecommand V patcher inserttextobj groove~;
+max definecommand C patcher inserttextobj cycle~;
+max definecommand G patcher inserttextobj groove~;
+
+max definecommand ! patcher inserttextobj loadbang;
+
+max definecommand L patcher inserttextobj live.;
